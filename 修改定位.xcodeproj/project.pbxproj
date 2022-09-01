@@ -54,6 +54,7 @@
 		D08C2C6A28B71A4900066C63 /* 修改定位UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "修改定位UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08C2C6E28B71A4900066C63 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		D08C2C7028B71A4900066C63 /* ____UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		D08C2C7D28B71A5700066C63 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		D08C2C3C28B71A4600066C63 = {
 			isa = PBXGroup;
 			children = (
+				D08C2C7D28B71A5700066C63 /* Location.gpx */,
 				D08C2C4728B71A4600066C63 /* 修改定位 */,
 				D08C2C6328B71A4900066C63 /* 修改定位Tests */,
 				D08C2C6D28B71A4900066C63 /* 修改定位UITests */,
@@ -455,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supwisdom.dingwei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supwisdom.dingwei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
